@@ -1,0 +1,14 @@
+[01m[K/home/exin0000/vnav_ws/src/two_drones_pkg/src/frames_publisher_node.cpp:[m[K In member function ‘[01m[Kvoid FramesPublisherNode::onPublish(const ros::TimerEvent&)[m[K’:
+[01m[K/home/exin0000/vnav_ws/src/two_drones_pkg/src/frames_publisher_node.cpp:32:24:[m[K [01;31m[Kerror: [m[K‘[01m[Ktemplate<class T, class D> class ros::TimeBase[m[K’ used without template parameters
+     double time = ros::[01;31m[KTimeBase[m[K::fromSec(start_time);
+                        [01;31m[K^~~~~~~~[m[K
+[01m[K/home/exin0000/vnav_ws/src/two_drones_pkg/src/frames_publisher_node.cpp:32:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kstart_time[m[K’ was not declared in this scope
+     double time = ros::TimeBase::fromSec([01;31m[Kstart_time[m[K);
+                                          [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/exin0000/vnav_ws/src/two_drones_pkg/src/frames_publisher_node.cpp:32:42:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kstartup_time[m[K’
+     double time = ros::TimeBase::fromSec([01;36m[Kstart_time[m[K);
+                                          [01;36m[K^~~~~~~~~~[m[K
+                                          [32m[Kstartup_time[m[K
+make[2]: *** [CMakeFiles/frames_publisher_node.dir/src/frames_publisher_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/frames_publisher_node.dir/all] Error 2
+make: *** [all] Error 2

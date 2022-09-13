@@ -1,0 +1,18 @@
+[01m[K/home/exin0000/vnav_ws/src/two_drones_pkg/src/frames_publisher_node.cpp:[m[K In member function ‘[01m[Kvoid FramesPublisherNode::onPublish(const ros::TimerEvent&)[m[K’:
+[01m[K/home/exin0000/vnav_ws/src/two_drones_pkg/src/frames_publisher_node.cpp:32:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kstart_time[m[K’ was not declared in this scope
+     double time = fromSec([01;31m[Kstart_time[m[K);
+                           [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/exin0000/vnav_ws/src/two_drones_pkg/src/frames_publisher_node.cpp:32:27:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kstartup_time[m[K’
+     double time = fromSec([01;36m[Kstart_time[m[K);
+                           [01;36m[K^~~~~~~~~~[m[K
+                           [32m[Kstartup_time[m[K
+[01m[K/home/exin0000/vnav_ws/src/two_drones_pkg/src/frames_publisher_node.cpp:32:19:[m[K [01;31m[Kerror: [m[K‘[01m[KfromSec[m[K’ was not declared in this scope
+     double time = [01;31m[KfromSec[m[K(start_time);
+                   [01;31m[K^~~~~~~[m[K
+[01m[K/home/exin0000/vnav_ws/src/two_drones_pkg/src/frames_publisher_node.cpp:32:19:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kfromfpl[m[K’
+     double time = [01;36m[KfromSec[m[K(start_time);
+                   [01;36m[K^~~~~~~[m[K
+                   [32m[Kfromfpl[m[K
+make[2]: *** [CMakeFiles/frames_publisher_node.dir/src/frames_publisher_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/frames_publisher_node.dir/all] Error 2
+make: *** [all] Error 2

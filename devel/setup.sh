@@ -1,0 +1,1 @@
+/home/exin0000/vnav_ws/devel/.private/catkin_tools_prebuild/setup.sh

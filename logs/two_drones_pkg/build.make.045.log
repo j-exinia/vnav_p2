@@ -1,0 +1,20 @@
+[35m[1mScanning dependencies of target frames_publisher_node[0m
+[35m[1mScanning dependencies of target plots_publisher_node[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/frames_publisher_node.dir/src/frames_publisher_node.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/plots_publisher_node.dir/src/plots_publisher_node.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable /home/exin0000/vnav_ws/devel/.private/two_drones_pkg/lib/two_drones_pkg/frames_publisher_node[0m
+[ 75%] Built target frames_publisher_node
+[01m[K/home/exin0000/vnav_ws/src/two_drones_pkg/src/plots_publisher_node.cpp:[m[K In member function ‘[01m[Kvoid PlotsPublisherNode::TrajTrail::update()[m[K’:
+[01m[K/home/exin0000/vnav_ws/src/two_drones_pkg/src/plots_publisher_node.cpp:32:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kwait[m[K’ was not declared in this scope
+          [01;31m[Kwait[m[K(1);
+          [01;31m[K^~~~[m[K
+[01m[K/home/exin0000/vnav_ws/src/two_drones_pkg/src/plots_publisher_node.cpp:32:10:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kwrite[m[K’
+          [01;36m[Kwait[m[K(1);
+          [01;36m[K^~~~[m[K
+          [32m[Kwrite[m[K
+CMakeFiles/plots_publisher_node.dir/build.make:62: recipe for target 'CMakeFiles/plots_publisher_node.dir/src/plots_publisher_node.cpp.o' failed
+make[2]: *** [CMakeFiles/plots_publisher_node.dir/src/plots_publisher_node.cpp.o] Error 1
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/plots_publisher_node.dir/all' failed
+make[1]: *** [CMakeFiles/plots_publisher_node.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

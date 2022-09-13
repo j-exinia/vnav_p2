@@ -1,0 +1,18 @@
+D1.
+
+1.	/av1broadcaster
+	/av2broadcaster
+	/plots_publisher_node
+	/rviz
+
+02. 	$rosrun two_drones_pkg frames_publisher_node
+	$rosrun two_drones_pkg plots_publisher_node
+	$rosrun rviz rviz find two_drones_pkg/config/default.rviz
+
+03.	/av1broadcaster: Pubs; /rosout, /tf
+	/av2broadcaster: Pubs; /rosout, /tf
+	/plots_publisher_node: Pubs; /rosout /visuals Subs; /tf /tf_static
+	
+04. 	The drones do not appear in rviz. This is because of how tht .launch 
+is configured. If the argument it statis then the publisher node for the drones
+is not present. 

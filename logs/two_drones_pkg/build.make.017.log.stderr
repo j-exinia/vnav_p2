@@ -1,0 +1,8 @@
+[01m[K/home/exin0000/vnav_ws/src/two_drones_pkg/src/frames_publisher_node.cpp:[m[K In member function ‘[01m[Kvoid FramesPublisherNode::onPublish(const ros::TimerEvent&)[m[K’:
+[01m[K/home/exin0000/vnav_ws/src/two_drones_pkg/src/frames_publisher_node.cpp:72:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass tf::Transform[m[K’ has no member named ‘[01m[KsendTransform[m[K’; did you mean ‘[01m[KTransform[m[K’?
+     AV1World.[01;31m[KsendTransform[m[K(tf::StampedTransform(transform1, ros::Time::now(), "world", "av1"))
+              [01;31m[K^~~~~~~~~~~~~[m[K
+              [32m[KTransform[m[K
+make[2]: *** [CMakeFiles/frames_publisher_node.dir/src/frames_publisher_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/frames_publisher_node.dir/all] Error 2
+make: *** [all] Error 2

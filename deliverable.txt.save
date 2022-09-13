@@ -1,0 +1,11 @@
+D1.
+
+1. 	/rqt_gui_py_node
+	/av1broadcaster
+	/av2broadcaster
+	/plots_publisher_node
+	/rviz
+	/rosout
+
+2. 	$rosrun two_drones_pkg frames_publisher_node 
+	$rosrun rosrun two_drones_pkg fr   

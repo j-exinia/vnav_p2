@@ -1,0 +1,10 @@
+[01m[K/home/exin0000/vnav_ws/src/two_drones_pkg/src/frames_publisher_node.cpp:[m[K In member function ‘[01m[Kvoid FramesPublisherNode::onPublish(const ros::TimerEvent&)[m[K’:
+[01m[K/home/exin0000/vnav_ws/src/two_drones_pkg/src/frames_publisher_node.cpp:57:37:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Ktf::TransformBroadcaster AV1World[m[K’
+     static tf::TransformBroadcaster [01;31m[KAV1World[m[K;
+                                     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/exin0000/vnav_ws/src/two_drones_pkg/src/frames_publisher_node.cpp:35:19:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Ktf::Transform AV1World[m[K’
+     tf::Transform [01;36m[KAV1World[m[K(tf::Transform::getIdentity());
+                   [01;36m[K^~~~~~~~[m[K
+make[2]: *** [CMakeFiles/frames_publisher_node.dir/src/frames_publisher_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/frames_publisher_node.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,15 @@
+[01m[K/home/exin0000/vnav_ws/src/two_drones_pkg/src/frames_publisher_node.cpp:[m[K In member function ‘[01m[Kvoid FramesPublisherNode::onPublish(const ros::TimerEvent&)[m[K’:
+[01m[K/home/exin0000/vnav_ws/src/two_drones_pkg/src/frames_publisher_node.cpp:56:12:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf[m[K’ does not name a type; did you mean ‘[01m[Ktm[m[K’?
+     static [01;31m[Ktf[m[K.TransformBroadcaster br1;
+            [01;31m[K^~[m[K
+            [32m[Ktm[m[K
+[01m[K/home/exin0000/vnav_ws/src/two_drones_pkg/src/frames_publisher_node.cpp:71:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kbr1[m[K’ was not declared in this scope
+     [01;31m[Kbr1[m[K.sendTransform(tf::StampedTransform(AV1World, ros::Time::now(), "world", "av1"));
+     [01;31m[K^~~[m[K
+[01m[K/home/exin0000/vnav_ws/src/two_drones_pkg/src/frames_publisher_node.cpp:71:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kbrk[m[K’
+     [01;36m[Kbr1[m[K.sendTransform(tf::StampedTransform(AV1World, ros::Time::now(), "world", "av1"));
+     [01;36m[K^~~[m[K
+     [32m[Kbrk[m[K
+make[2]: *** [CMakeFiles/frames_publisher_node.dir/src/frames_publisher_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/frames_publisher_node.dir/all] Error 2
+make: *** [all] Error 2
